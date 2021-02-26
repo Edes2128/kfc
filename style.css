@@ -86,15 +86,21 @@ img {
   z-index: 2;
   display: flex;
   flex-direction: column;
+  background: url("./images/Background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
 .slide-menu-show {
   right: 0;
 }
 .mbyll {
   font-size: 40px;
-  color: #e5002b;
+  color: #ffffff;
   cursor: pointer;
   padding: 15px;
+  
 }
 .slide-menu-opa {
   width: 100%;
@@ -147,7 +153,7 @@ img {
 
 .slide-menu-links-link {
   text-decoration: none;
-  color: #e5002b;
+  color: #ffffff;
   font-size: 25px;
   display: flex;
   align-items: center;
@@ -160,7 +166,7 @@ img {
   position: absolute;
   height: 3px;
   width: 10px;
-  background-color: #e5002b;
+  background-color: #ffffff;
   top: 50%;
   left: -23px;
 }
