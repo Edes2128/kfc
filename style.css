@@ -99,10 +99,10 @@ img {
 .mbyll {
   background-color: white;
   cursor: pointer;
-  margin-top: 10px;
-    margin-left: 12px;
-    height: 38px;
-    width: 38px;
+  margin-top: 15px;
+    margin-left: 20px;
+    height: 28px;
+    width: 28px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -167,6 +167,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding-left: 15px;
 }
 
 .slide-menu-links-link {
@@ -182,11 +183,11 @@ img {
 .slide-menu-links-link::before {
   content: "";
   position: absolute;
-  height: 3px;
-  width: 10px;
+  height: 5px;
+  width: 28px;
   background-color: #ffffff;
-  top: 50%;
-  left: -23px;
+  top: 34%;
+  left: -45px;
 }
 
 @media (max-width: 650px) {
